@@ -29,39 +29,4 @@ This project demonstrates an **end-to-end data pipeline** leveraging **Azure** s
 5️⃣ **Gold Layer (Analytics Ready Data)**: Creating structured tables such as **Dim_branch, Dim_date, Dim_model, Fact_sales**
 6️⃣ **Serving Layer**: Storing transformed data in **Delta Lake** for optimized querying
 
-## 📂 Repository Structure
-```
-📦 AZURE-RESSOURCES
- ┣ 📂 notebooks
- ┃ ┣ 📜 silver_notebook.ipynb  # Data transformation logic
- ┃ ┣ 📜 gold_dim_date.ipynb    # Dimensional modeling (Date dimension)
- ┃ ┣ 📜 gold_fact_sales.ipynb  # Fact table processing (Sales data)
- ┣ 📂 pipelines
- ┃ ┣ 📜 incremental_data_pipeline.json  # ADF Pipeline Configuration
- ┣ 📜 README.md  # Project Documentation
-```
 
-## 📷 Project Screenshots
-✅ **Azure Data Factory Pipeline** - Incremental Data Loading & Orchestration
-✅ **Databricks Job Execution** - ETL Pipeline Execution & Dimensional Modeling
-
-## 🚀 Getting Started
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/ziatily2/AZURE-RESSOURCES.git
-```
-### 2️⃣ Deploy Azure Data Factory Pipeline
-- Import **incremental_data_pipeline.json** into Azure Data Factory.
-- Configure **SQL Database** and **Data Lake Gen2** connections.
-
-### 3️⃣ Deploy Databricks Notebooks
-- Upload notebooks to **Databricks Workspace**.
-- Schedule jobs using **Databricks Workflows**.
-
-## 💡 Future Enhancements
-- **Integrate Advanced Unity Catalog Features** for enhanced data governance and access control.
-- **Optimize Databricks Workflows** for better performance and cost efficiency.
-- **Implement CI/CD Pipelines** using GitHub Actions for automation.
-
-## 🔗 Connect with Me
-I’d love to collaborate and hear your feedback! 🚀
